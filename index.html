@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB GAME</title>
+    <link rel="shortcut icon" href="./palette.png" type="image/x-icon" />
+    <!-- fontawesome file -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="wrapper vh-100">
+      <header class="py-5 d-flex flex-column align-items-center gap-3 bg-black">
+        <div class="title text-center">
+          <h1 class="text-uppercase text-white">RGB Game</h1>
+          <h2 class="text-white fs-1" id="rgbSyntax">rgb(255, 255, 255)</h2>
+        </div>
+        <div class="button-group">
+          <button
+            id="easyBtn"
+            class="btn btn-outline-danger me-3 px-4 fs-4 active text-white"
+          >
+            Easy
+          </button>
+          <button
+            id="hardBtn"
+            class="btn btn-outline-danger px-4 fs-4 text-white"
+          >
+            Hard
+          </button>
+        </div>
+      </header>
+
+      <section class="bg-black py-4">
+        <button
+          id="getColorsBtn"
+          class="btn btn-outline-danger text-white rounded-pill d-block mx-auto fs-5 px-4"
+        >
+          GET COLORS
+        </button>
+        <div id="colorsContainer" class="container"></div>
+      </section>
+    </div>
+    <!-- bootstarap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  border-bottom: 6px dotted lightgoldenrodyellow;
+}
+h1{
+  font-size: 90px;
+}
+.title{
+  background-image: linear-gradient(to right,#ff3662 ,#b1297d, #0174BE);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header button {
+  transition: 350ms color;
+}
+
+header button:hover,
+header button.active {
+  color: #fff !important ;
+}
+
+section {
+  min-height: 61vh;
+}
+
+.color-card {
+  height: 200px;
+}
